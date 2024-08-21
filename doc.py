@@ -58,7 +58,7 @@ def create_word_document(data, file_name='output.docx'):
     doc = Document()
     
     # Add a title or heading
-    doc.add_heading('Uniquness Report', level=1)
+    doc.add_heading('Uniqueness Report', level=1)
     
     # Add formatted table
     if 'table' in data:
